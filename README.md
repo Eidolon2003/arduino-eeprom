@@ -1,6 +1,11 @@
 # Arduino EEPROM Programmer
 This short Arduino program can be used to read and write EEPROMs. Specifically, I use an Arduino Uno R3 and AT28C256 EEPROM.
 
+## The Breadboard
+The other chips are a 74LS593 (8-bit counter) and 2x 74HCT161 (4-bit counter) because that's what I had available.
+
+<img src="picture.jpg" width=512 />
+
 ## Use on Windows
 1. Open a command prompt: Press Win+R, type "cmd", press enter.
 2. Check which COM port the Arduino is connected to. List all connected ports using the `mode` command. For me, it's COM3
